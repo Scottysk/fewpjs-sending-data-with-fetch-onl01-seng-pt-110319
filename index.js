@@ -20,7 +20,6 @@ fetch("http://localhost:3000/users", configObj)
   })
   .then(function(object) {
     document.body.innerHTML = object.id
-    console.log(object);
   })
 
 }
