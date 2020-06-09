@@ -3,11 +3,13 @@ function submitData(name, email) {
     name: "name",
     email: "email"
   };
-}
-
-  let configObj = {
+  
+    let configObj = {
     headers: {
       
     }
-  }
+  };
+
+}
+
 
