@@ -21,7 +21,9 @@ return fetch("http://localhost:3000/users", configObj)
   .then(function(object) {
     document.body.innerHTML = object["id"]
   })
-  .catch
+  .catch(function(error) {
+    ducoment.body.innerHTML = error.message
+  })
 
 }
 
