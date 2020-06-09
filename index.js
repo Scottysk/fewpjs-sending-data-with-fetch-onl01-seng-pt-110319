@@ -22,7 +22,7 @@ return fetch("http://localhost:3000/users", configObj)
     document.body.innerHTML = object["id"]
   })
   .catch(function(error) {
-    ducoment.body.innerHTML = error.message
+    document.body.innerHTML = error.message
   })
 
 }
