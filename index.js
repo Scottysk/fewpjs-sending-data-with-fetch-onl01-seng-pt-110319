@@ -6,7 +6,7 @@ function submitData(name, email) {
   
     let configObj = {
     headers: {
-      
+      "Content-Type": "application/json"
     }
   };
 
