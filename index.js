@@ -1,5 +1,4 @@
 function submitData(name, email) {
-  return fetch("http://localhost:3000/users", {
   let formData = {
     name: name,
     email: email
@@ -15,11 +14,12 @@ function submitData(name, email) {
   };
 
 
+return fetch("http://localhost:3000/users", configObj)
   .then(function(response) {
     return response.json();
   })
   .then(function(object) {
-    document.body.innerHTML = object['id']
+    document.body.innerHTML = object["id"]
   })
 
 }
